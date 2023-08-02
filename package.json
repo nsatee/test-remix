@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mantine/carousel": "^6.0.17",
+    "@mantine/core": "^6.0.17",
+    "@mantine/dates": "^6.0.17",
+    "@mantine/dropzone": "^6.0.17",
+    "@mantine/form": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@mantine/modals": "^6.0.17",
+    "@mantine/notifications": "^6.0.17",
+    "@mantine/nprogress": "^6.0.17",
+    "@mantine/remix": "^6.0.17",
+    "@mantine/tiptap": "^6.0.17",
+    "@remix-run/css-bundle": "^1.19.1",
+    "@remix-run/node": "^1.19.1",
+    "@remix-run/react": "^1.19.1",
+    "@remix-run/vercel": "^1.19.1",
+    "@tabler/icons-react": "^2.30.0",
+    "@tiptap/extension-link": "^2.0.4",
+    "@tiptap/react": "^2.0.4",
+    "@tiptap/starter-kit": "^2.0.4",
+    "@vercel/node": "^2.10.3",
+    "dayjs": "^1.11.9",
+    "embla-carousel-react": "^8.0.0-rc11",
+    "isbot": "^3.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.19.1",
+    "@remix-run/eslint-config": "^1.19.1",
+    "@remix-run/serve": "^1.19.1",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "@types/source-map-support": "^0.5.6",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
