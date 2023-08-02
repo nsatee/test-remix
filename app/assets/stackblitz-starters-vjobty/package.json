@@ -1,0 +1,25 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.1.4",
+    "express": "^4.17.1",
+    "extract-json-from-string": "^1.0.1",
+    "instagram-scraper": "^1.0.6",
+    "instagram-scraper-api": "^1.0.1",
+    "instagram-scraping": "^1.0.17",
+    "instagram-without-api-node": "^1.0.12",
+    "instamancer": "^3.3.1",
+    "instapro": "^4.0.1",
+    "scraper-instagram": "^1.0.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
